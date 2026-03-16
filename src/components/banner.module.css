@@ -1,0 +1,25 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px;
+    margin: 0px auto;
+    width: 95vw;
+    height: 80vh;
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.bannerText{
+    position: relative;
+    top: 250px;
+    z-index: 20;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: coral;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
